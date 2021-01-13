@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
     <head>
         <title>CSE110 Lab 2 - Varun Singh</title>
@@ -21,16 +21,17 @@
                 <div>
                     <span>
                         I am a <b>second year CS major</b> at <i>UCSD</i>.
-                        <hr>
-                        My hobbies include:
-                        <ul>
-                            <li> music production. I've included an example of something I made
-                                <audio controls src=Lucid.mp3>Audio cannot be played.</audio>
-                            </li>
-                            
-                            <li> orchestral composition</li>
-                        </ul>
                     </span>
+                    <hr>
+                    My hobbies include:
+                    <ul>
+                        <li> music production. I've included an example of something I made
+                            <audio controls src=Lucid.mp3>Audio cannot be played.</audio>
+                        </li>
+                        
+                        <li> orchestral composition</li>
+                    </ul>
+                    
                 </div>
                 <nav>
                     <a href="https://github.com/DualSaturn">Github profile</a>
@@ -52,6 +53,7 @@
                 <h3>A neural network framework using python</h3>
             </section>
             <pre> using the pre tag </pre>
+            <p>Now code:</p>
             <code>
                 System.out.println("This is a code section");
             </code>
@@ -59,7 +61,7 @@
             <p>The page from part 2 is seen below</p>
             <iframe src="https://cse110lab2.herokuapp.com/index.html"></iframe><br>
             <p>Mozilla's video is shown below</p>
-            <video controls type="video/webm">
+            <video controls>
                 <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm">
                 Error playing video.
             </video>
@@ -75,12 +77,12 @@
             </script>
             <p>Here is an svg.</p>
             <svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" stroke="red" fill="red">
-                <rect width=66 height=66 x=100 y=100>
+                <rect width=66 height=66 x=100 y=100></rect>
             </svg>
               
                 <p>Here is a form.</p>
                 <form>
-                    <label for="checkbox">Check me off.</label>
+                    <label for="check">Check me off.</label>
                     <input type="checkbox" id="check">
                     <br>
                     <label for="mail">Give me an email.</label>
@@ -129,10 +131,10 @@
                     <textarea>Get something off your chest.</textarea>
                     <br>
                     <label for="butto">Done?</label>
-                    <input type="button" onclick="alert('Cool!')" id="butto">
+                    <input value="Click me!" type="button" onclick="alert('Cool!')" id="butto">
                 </form>
                 <p>Here is a table.</p>
-                <table width=800 border=1>
+                <table>
                     <caption>Tay-bel</caption>
                     <colgroup>
                         <col span=1>
