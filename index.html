@@ -3,10 +3,190 @@
 
     <head>
         <title>CSE110 Lab 2 - Varun Singh</title>
-        <link rel="shortcut icon" type="image/png" href="image/favicon.ico">
+        <link rel="shortcut icon" type="image/png" href="favicon.ico">
+        <meta charset="utf-8">
     </head>
 
     <body>
-        <p> hello</p>
+        <main>
+            <header><h1>This is my page for the second lab of CSE110</h1></header>
+            <section>
+                <h2>About me - Varun Singh</h2>
+                <figure>
+                    <picture>
+                        <img src=headshot.jpg>
+                    </picture>
+                    <figcaption>A picture of me.</figcaption>
+                </figure>
+                <div>
+                    <span>
+                        I am a <b>second year CS major</b> at <i>UCSD</i>.
+                        <hr>
+                        My hobbies include:
+                        <ul>
+                            <li> music production. I've included an example of something I made
+                                <audio controls src=Lucid.mp3>Audio cannot be played.</audio>
+                            </li>
+                            
+                            <li> orchestral composition</li>
+                        </ul>
+                    </span>
+                </div>
+                <nav>
+                    <a href="https://github.com/DualSaturn">Github profile</a>
+                    <br>
+                    <a href="https://dualsaturn.github.io">User page (made in lab 1)</a>
+                </nav>
+            </section>
+            <section>
+                <aside>
+                    Below are some personal projcts I have worked on.
+                    <ol>
+                        <li>A habit tracker</li>
+                        <li>A neural network framework</li>
+                    </ol>
+                </aside>
+                <h2>Projects</h2>
+                <h3>A habit tracker</h3>
+                <p>In order to help me develop positive habits, I decided to <strong>create a web app</strong> to <em>track my progress.</em></p>
+                <h3>A neural network framework using python</h3>
+            </section>
+            <pre> using the pre tag </pre>
+            <code>
+                System.out.println("This is a code section");
+            </code>
+            <br>
+            <p>The page from part 2 is seen below</p>
+            <iframe src="https://cse110lab2.herokuapp.com/index.html"></iframe><br>
+            <p>Mozilla's video is shown below</p>
+            <video controls type="video/webm">
+                <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm">
+                Error playing video.
+            </video>
+            <p>Here is a canvas</p>
+            <canvas width="300" height="300">
+                Error with canvas.
+            </canvas>
+            <script>
+                const canvas = document.querySelector('canvas');
+                const ctx = canvas.getContext('2d');
+                ctx.fillStyle = 'red';
+                ctx.fillRect(100, 100, 66, 66);
+            </script>
+            <p>Here is an svg.</p>
+            <svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" stroke="red" fill="red">
+                <rect width=66 height=66 x=100 y=100>
+            </svg>
+              
+                <p>Here is a form.</p>
+                <form>
+                    <label for="checkbox">Check me off.</label>
+                    <input type="checkbox" id="check">
+                    <br>
+                    <label for="mail">Give me an email.</label>
+                    <input type="email" id="mail">
+                    <br>
+                    <label for="selectdate">Choose a date.</label>
+                    <input type="date" id="selectdate">
+                    <br>
+                    <fieldset>
+                        <legend>Favorites.</legend>
+                        <label for="choosecolor">Favorite color?</label>
+                        <input type="color" id="choosecolor">
+                        <br>
+                        <label for="pass">Favorite password? (don't do it)</label>
+                        <input type="password" id="pass">
+                        <br>
+                        <label for="numer">Favorite number?</label>
+                        <input type="number" id="numer">
+                        <br>
+                        <label for="links">Favorite website?</label>
+                        <input type="url" id="links" list=links-list>
+                        <br>
+                        <label for="gems">Favorite game?</label>
+                        <select id="gems">
+                            <optgroup label="Pokemon">
+                                <option>Red</option>
+                                <option>Yellow</option>
+                                <option>Blue</option>
+                            </optgroup>
+                        </select>
+                    <br>
+                    </fieldset>
+                    <datalist id="links-list">
+                        <option value=https://google.com></option>
+                        <option value=https://wikipedia.com></option>
+                    </datalist>
+                    <label for="normaltext">Write something.</label>
+                    <input type="text" id="normaltext">
+                    <br>
+                    <label for="tim">Enter a time.</label>
+                    <input type="time" id="tim">
+                    <br>
+                    <label for="fil">Upload a file.</label>
+                    <input type="file" id="fil">
+                    <br>
+                    <textarea>Get something off your chest.</textarea>
+                    <br>
+                    <label for="butto">Done?</label>
+                    <input type="button" onclick="alert('Cool!')" id="butto">
+                </form>
+                <p>Here is a table.</p>
+                <table width=800 border=1>
+                    <caption>Tay-bel</caption>
+                    <colgroup>
+                        <col span=1>
+                        <col span=2>
+                    </colgroup>
+                    <tr>
+                        <th>one</th>
+                        <th>two</th>
+                        <th>three</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                    </tr>
+                </table>
+                <details>
+                    <summary>Don't click me</summary>
+                    <p>You've discovered a hidden area.</p>
+                </details>
+
+                <template id="zen">
+                    Beautiful is better than ugly. <br>
+                    Explicit is better than implicit.<br>
+                    Simple is better than complex.<br>
+                    Complex is better than complicated.<br>
+                    Flat is better than nested.<br>
+                    Sparse is better than dense.<br>
+                    Readability counts.<br>
+                    Special cases aren't special enough to break the rules.<br>
+                    Although practicality beats purity.<br>
+                    Errors should never pass silently.<br>
+                    Unless explicitly silenced.<br>
+                    In the face of ambiguity, refuse the temptation to guess.<br>
+                    There should be one-- and preferably only one --obvious way to do it.<br>
+                    Although that way may not be obvious at first unless you're Dutch.<br>
+                    Now is better than never.<br>
+                    Although never is often better than *right* now.<br>
+                    If the implementation is hard to explain, it's a bad idea.<br>
+                    If the implementation is easy to explain, it may be a good idea.<br>
+                    Namespaces are one honking great idea -- let's do more of those!
+                </template>
+                <p id=zenHolder></p>
+                <button onclick="zenOfPython()">I wonder what this does</button>
+                <script>
+                    const zenOfPython = () => {
+                        var x = document.getElementById("zen")
+                        var y = document.getElementById("zenHolder")
+                        if (y.textContent===""){
+                            y.appendChild(x.content.cloneNode(true))
+                        }
+                    }
+                </script>
+            <footer>This is the footer section.</footer>
+        </main>
     </body>
-</html> 
+</html>
