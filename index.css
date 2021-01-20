@@ -1,5 +1,6 @@
 .MainHeader {
     font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
 }
 .MainHeader:hover{
     background-color: hsl(43, 100%, 50%);
@@ -42,9 +43,14 @@ section, code {
     border-width: 3px;
     border-style: solid;
     border-radius: 50px;
+    font-size: 1.25rem;
 }
 
 p.desc{
     background-color: #ffa07a;
     color:hsla(0, 100%, 18%, 1);
+}
+
+video {
+    border-radius: 2rem;
 }
