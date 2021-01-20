@@ -56,7 +56,7 @@
             <section>
                 <h2>Projects</h2>
                 <h3>A habit tracker</h3>
-                <p>In order to help me develop positive habits, I decided to <strong>create a web app</strong> to <em>track my progress.</em></p>
+                <p class="desc">In order to help me develop positive habits, I decided to <strong>create a web app</strong> to <em>track my progress.</em></p>
                 <h3>A neural network framework using python</h3>
             </section>
             <pre> using the pre tag </pre>
@@ -65,7 +65,7 @@
                 System.out.println("This is a code section");
             </code>
             <br>
-            <p>The page from part 2 is seen below</p>
+            <p>The page from part 2 in lab 2 is seen below</p>
             <iframe src="https://cse110lab2.herokuapp.com/index.html"></iframe><br>
             <p>Mozilla's video is shown below</p>
             <video controls>
@@ -89,30 +89,30 @@
               
                 <p>Here is a form.</p>
                 <form>
-                    <label for="check">Check me off.</label>
+                    <label class="nofav" for="check">Check me off.</label>
                     <input type="checkbox" id="check">
                     <br>
-                    <label for="mail">Give me an email.</label>
+                    <label class="nofav" for="mail">Give me an email.</label>
                     <input type="email" id="mail">
                     <br>
-                    <label for="selectdate">Choose a date.</label>
+                    <label class="nofav" for="selectdate">Choose a date.</label>
                     <input type="date" id="selectdate">
                     <br>
                     <fieldset>
                         <legend>Favorites.</legend>
-                        <label for="choosecolor">Favorite color?</label>
+                        <label class="fav" for="choosecolor">Favorite color?</label>
                         <input type="color" id="choosecolor">
                         <br>
-                        <label for="pass">Favorite password? (don't do it)</label>
+                        <label class="fav" for="pass">Favorite password? (don't do it)</label>
                         <input type="password" id="pass">
                         <br>
-                        <label for="numer">Favorite number?</label>
+                        <label class="fav" for="numer">Favorite number?</label>
                         <input type="number" id="numer">
                         <br>
-                        <label for="links">Favorite website?</label>
+                        <label class="fav" for="links">Favorite website?</label>
                         <input type="url" id="links" list=links-list>
                         <br>
-                        <label for="gems">Favorite game?</label>
+                        <label class="fav" for="gems">Favorite game?</label>
                         <select id="gems">
                             <optgroup label="Pokemon">
                                 <option>Red</option>

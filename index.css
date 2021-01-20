@@ -16,3 +16,30 @@ span{
 a[href="https://github.com/DualSaturn"] {
     background-color: gold;
 }
+
+ul li {
+    background-color: silver;
+}
+
+ol > li{
+    background-color: cornflowerblue;
+}
+
+p ~ h3 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2 + h3 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+section, code {
+    padding: 5px;
+    border: black;
+    border-width: 1px;
+    border-style: solid;
+}
+
+p.desc{
+    background-color: lightsalmon;
+}
