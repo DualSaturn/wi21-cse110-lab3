@@ -58,6 +58,7 @@ p.desc{
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     text-decoration: underline mediumblue;
+    display: inline;
 }
 
 video {
@@ -66,4 +67,48 @@ video {
     margin-top: 1mm;
     margin-bottom: 1mm;
     border-radius: 10%;
+    display: block;
+}
+
+iframe {
+    display:none;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+
+.nofav{
+    flex-grow:3;
+}
+
+.fav {
+    flex-grow:2;
+}
+
+.gridiv{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.upperlef{
+    background-color: lightcoral;
+    grid-row: 1/1;
+    grid-column: 1/1;
+}
+
+.ur {
+    background-color: lightseagreen;
+    grid-row: 1/1;
+    grid-column: 2/2;
+}
+
+.sleeper {
+    background-color: lightsteelblue;
+    grid-row: 2/2;
+    grid-column: 1/ span 2;
 }
