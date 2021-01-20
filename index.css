@@ -58,6 +58,7 @@ p.desc{
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     text-decoration: underline mediumblue;
+    display: inline;
 }
 
 video {
@@ -66,4 +67,9 @@ video {
     margin-top: 1mm;
     margin-bottom: 1mm;
     border-radius: 10%;
+    display: block;
+}
+
+iframe {
+    display:none;
 }
