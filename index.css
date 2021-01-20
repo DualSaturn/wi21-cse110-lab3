@@ -2,7 +2,7 @@
     font-family: 'Courier New', Courier, monospace;
 }
 .MainHeader:hover{
-    background-color: gold;
+    background-color: hsl(43, 100%, 50%);
 }
 
 
@@ -17,11 +17,11 @@ span{
 }
 
 a[href="https://github.com/DualSaturn"] {
-    background-color: gold;
+    background-color: rgb(255, 218, 7);
 }
 
 ul li {
-    background-color: silver;
+    background-color: rgba(202, 201, 201, 2555);
 }
 
 ol > li{
@@ -38,11 +38,12 @@ h2 + h3 {
 
 section, code {
     padding: 5px;
-    border: black;
+    border:#000;
     border-width: 1px;
     border-style: solid;
 }
 
 p.desc{
-    background-color: lightsalmon;
+    background-color: #ffa07a;
+    color:hsla(0, 100%, 18%, 1);
 }
