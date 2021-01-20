@@ -1,6 +1,7 @@
 .MainHeader {
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.2rem;
+    margin: 5px 5px 5px 5px
 }
 .MainHeader:hover{
     background-color: hsl(43, 100%, 50%);
@@ -38,7 +39,8 @@ h2 + h3 {
 }
 
 section, code {
-    padding: 5px;
+    margin: auto;
+    padding: 5px 5px 5px 5px;
     border-color:#000;
     border-width: 0.1cm;
     border-style: solid;
@@ -49,8 +51,16 @@ section, code {
 p.desc{
     background-color: #ffa07a;
     color:hsla(0, 100%, 18%, 1);
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }
 
 video {
+    margin-left: 1mm;
+    margin-right: 1mm;
+    margin-top: 1mm;
+    margin-bottom: 1mm;
     border-radius: 10%;
 }
