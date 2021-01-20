@@ -12,8 +12,11 @@
     background-color: hsl(43, 100%, 50%);
 }
 
-
-
+@media screen and (max-width: 600px) {
+    .MainHeader{
+        background-color: rebeccapurple;
+    }
+}
 
 /* using the different types of selectors */
 
