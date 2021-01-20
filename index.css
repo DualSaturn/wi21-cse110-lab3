@@ -1,3 +1,18 @@
 .MainHeader {
     font-family: 'Courier New', Courier, monospace;
 }
+.MainHeader:hover{
+    background-color: gold;
+}
+
+*{
+    text-align:center;
+}
+
+span{
+    background-color: yellowgreen;
+}
+
+a[href="https://github.com/DualSaturn"] {
+    background-color: gold;
+}
